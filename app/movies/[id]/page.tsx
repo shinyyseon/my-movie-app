@@ -1,7 +1,13 @@
 import { movies } from '../data';
 
-export default function MovieDetail({ params }) {
-  const movie = movies.find(m => m.id === params.id);
+interface MovieDetailProps {
+  params: {
+    id: string;
+  };
+}
+
+export default function MovieDetail({ params }: MovieDetailProps) {
+  const movie = movies.find((m) => m.id === params.id);
 
   if (!movie) return <div style={{ padding: '2rem' }}>영화를 찾을 수 없습니다.</div>;
 
