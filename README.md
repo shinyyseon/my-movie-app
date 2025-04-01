@@ -10,6 +10,8 @@
 <br>
 
 8. TypeScript로 영화 목록 확인 앱 리팩토링하기 (branch : main-change)
+<img width="1480" alt="스크린샷 2025-03-31 오후 3 43 26" src="https://github.com/user-attachments/assets/68e1f997-cbb2-485e-b85e-b0bd101a5911" /> <br>
+<br>
 
 9. 도커를 활용한 리액트 앱 배포하기 (branch : main)
 ![스크린샷 2025-04-01 오후 2 11 56](https://github.com/user-attachments/assets/558f430c-dd36-48aa-bc12-d1e9bf0f4c26)
